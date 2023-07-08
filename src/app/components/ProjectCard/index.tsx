@@ -32,7 +32,7 @@ export const ProjectCard: React.FC<ProjectData> = ({
 
         <div className="project-stack">
           {stack.map((item) => (
-            <p className="stack-item">{item}</p> 
+            <p className="stack-item" key={item}>{item}</p> 
           ))}
         </div>
         <div className="project-links">

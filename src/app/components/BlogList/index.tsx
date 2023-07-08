@@ -50,7 +50,7 @@ const BlogList = async ({ blogs }: IProps) => {
       </div>
       <div className="blog-list">
         {filteredBlogs.map((blog) => (
-          <BlogCard blog={blog} />
+          <BlogCard key={blog.slug} blog={blog} />
         ))}
       </div>
     </div>

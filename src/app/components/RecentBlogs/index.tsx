@@ -12,7 +12,7 @@ const RecentBlogs = ({ blogs }: Props) => {
     <div style={{ marginTop: 50 }}>
       <h3 style={{ textDecoration: "underline" }}>Recent Blogs</h3>
       {blogsToShow.map((blog) => (
-        <BlogCard blog={blog} />
+        <BlogCard blog={blog} key={blog.slug} />
       ))}
       {blogsToShow.length > 2 && (
         <Link href="/blog">

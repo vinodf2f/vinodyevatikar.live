@@ -99,7 +99,11 @@ export const HomeLinks = (props: Props) => {
   return (
     <div className="linkContainer">
       {HOME_LINKS.map((link) => (
-        <div className="link" onClick={() => handleClick(link)}>
+        <div
+          key={link.label}
+          className="link"
+          onClick={() => handleClick(link)}
+        >
           {link.icon?.isStatic ? (
             <span className="icon">{link.icon.src}</span>
           ) : (

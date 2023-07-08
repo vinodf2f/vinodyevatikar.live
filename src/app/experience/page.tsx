@@ -6,7 +6,7 @@ import Seperator from "@/app/components/Seperator";
 import { ExperienceData } from "../data/experience";
 type Props = {};
 
-export default (props: Props) => {
+const Experience= (props: Props) => {
   return (
     <div className={styles.container}>
       <h5 className={styles.header}>
@@ -24,3 +24,5 @@ export default (props: Props) => {
     </div>
   );
 };
+
+export default Experience;

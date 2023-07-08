@@ -45,9 +45,9 @@ export const Skills = (props: Props) => {
     <div style={{marginTop:50}}>
       <h3 style={{textDecoration:'underline'}}>Tech stack I work with </h3>
       <div className="skillContainer">
-        {skills.map((skill) => {
+        {skills.map((skill, index) => {
           return (
-            <div className="skillItem">
+            <div className="skillItem" key={`${skill.name}${index}`}>
               <div className="name">{skill.name}</div>
               <Image src={skill.icon} width={50} height={50} alt={skill.name} />
             </div>

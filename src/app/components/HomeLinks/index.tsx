@@ -110,7 +110,7 @@ export const HomeLinks = (props: Props) => {
             <Image
               width={20}
               height={20}
-              src={link.icon?.src}
+              src={link.icon?.src || ""}
               alt={link.label}
             />
           )}

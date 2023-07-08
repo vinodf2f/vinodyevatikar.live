@@ -1,0 +1,33 @@
+.blog-item {
+  margin-bottom: 5px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+
+.blog-item:hover .blogTitleContainer p {
+  text-decoration: underline;
+}
+
+.blogTitleContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex:1
+}
+
+.blogTitleContainer p {
+  font-size: 1rem;
+  padding: 5px 0;
+  margin: 0;
+  margin-left: 15px;
+}
+
+.blogTitleContainer .date {
+  color: #666;
+  margin: 0;
+}
+

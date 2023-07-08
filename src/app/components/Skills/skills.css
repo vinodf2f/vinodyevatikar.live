@@ -1,0 +1,23 @@
+.skillContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.skillItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin:10px 5px;
+  min-width: 20%;
+  background-color: aliceblue;
+  color:#151c3a ;
+  padding: 5px 10px;
+  border-radius: 5px;
+  ;
+}
+
+.skillItem .name {
+  margin-right: 10px;
+}

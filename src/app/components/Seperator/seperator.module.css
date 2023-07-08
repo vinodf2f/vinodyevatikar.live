@@ -1,0 +1,5 @@
+.seperator {
+    border-bottom: 1px solid gray;
+    border-bottom-style: dashed;
+    width: 100%;
+}

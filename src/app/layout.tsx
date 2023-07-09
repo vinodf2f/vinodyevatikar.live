@@ -21,6 +21,7 @@ export default function RootLayout({
             height={150}
             alt="profile"
             className="avtarImg"
+            loading='eager'
           />
           <h1>Hey, I am Vinod</h1>
           <h5>Frontend Engineer (Mobile + web)</h5>

@@ -25,7 +25,7 @@ export const projectsData: ProjectData[] = [
   },
   {
     title: "Portfolio",
-    description: `An online space for me to showcase my expertise, skill & work experience impress potential clients and employers.`,
+    description:"A Nextjs website to showcase my work experience, skills, expertise, Blogs, Projects & Gallary",
     date: "09-07-2023",
     tags: [],
     stack: ["NextJS", "React", "Typescript","AppRouter"],

@@ -21,6 +21,7 @@ export const ProjectCard: React.FC<ProjectData> = ({
             width={100}
             height={100}
             alt="cover-image"
+            loading="eager"
           />
       )}
       <div className="project-info">

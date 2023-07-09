@@ -114,6 +114,7 @@ export const HomeLinks = (props: Props) => {
               height={20}
               src={link.icon?.src || ""}
               alt={link.label}
+              loading="eager"
             />
           )}
           <span className="label">{link.label}</span>

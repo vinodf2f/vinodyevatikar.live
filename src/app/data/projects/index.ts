@@ -14,10 +14,10 @@ export type ProjectData = {
 export const projectsData: ProjectData[] = [
   {
     title: "Hey there",
-    description: `Hey There is a delightful chat app that enables you to connect with nearby individuals anonymously. Whether you're looking for interesting discussions, friendly banter, or simply passing the time, Hey-there is your app, Once you log out all the chats and account information will be deleted.`,
+    description: `Hey There is a chat app that enables you to connect with nearby individuals anonymously. Whether you're looking for interesting discussions or simply passing the time with nearby folks, Hey-there is your app, Once you log out all the chats and account information will be deleted.`,
     date: "02-07-2023",
     tags: [],
-    stack: ["React-Native", "Expo", "React-Native-Maps", "Expo-Location"],
+    stack: ["React-Native", "Expo", "React-Native-Maps", "Expo-Location","React-Native-Gifted-Chat"],
     github: "https://github.com/vinodf2f/hey-there",
     projectLink:
       "https://play.google.com/store/apps/details?id=com.vinod_f2f.heythere",

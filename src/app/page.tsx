@@ -5,10 +5,8 @@ import { Blog } from "./blog/types";
 import RecentProjects from "./components/RecentProjects";
 
 export default function Home() {
-
   const blogs = getAllBlogs() as Blog[];
 
-  
   return (
     <main>
       <section id="about">
@@ -21,7 +19,7 @@ export default function Home() {
         </p>
       </section>
       <HomeLinks />
-      <RecentBlogs blogs={blogs}/>
+      <RecentBlogs blogs={blogs} />
       <RecentProjects />
       <Skills />
     </main>

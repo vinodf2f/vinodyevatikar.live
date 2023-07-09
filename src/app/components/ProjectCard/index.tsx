@@ -15,15 +15,13 @@ export const ProjectCard: React.FC<ProjectData> = ({
   return (
     <div className="project-card">
       {!!coverImage && (
-        <div>
           <Image
             src={coverImage}
             className="cover-image"
-            width={150}
-            height={150}
+            width={100}
+            height={100}
             alt="cover-image"
           />
-        </div>
       )}
       <div className="project-info">
         <h4 className="project-title">{title}</h4>

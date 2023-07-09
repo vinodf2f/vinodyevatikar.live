@@ -29,12 +29,9 @@ const BlogList = async ({ blogs }: IProps) => {
     <div className="blog-page">
       <p>
         In the dynamic and ever-changing field of software development, it's
-        common to come across new concepts and forget some basic concetps over
+        common to come across new concepts and forget some basic concepts over
         time. Writing small blogs and practical implementations helps me
-        solidify my understanding. In these blogs I will not be using any fancy
-        terms but explain concepts in my own words & I welcome any correction or
-        feedback. I am more than happy to buy you a coffee if you help me
-        improve my understanding{" "}
+        solidify my understanding.
       </p>
       <br />
       <div className="tag-list">

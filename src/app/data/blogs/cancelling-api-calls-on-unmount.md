@@ -2,7 +2,7 @@
 title: Cancelling API Calls on Unmount - Enhancing Application Performance and Preventing Memory Leaks
 date: 21-06-2023
 author: [Your Name]
-tags: [API, performance, memory leaks, web development]
+tags: [API, performance, memory leaks, web development, React, React Native]
 ---
 
 In modern web development, it is common to interact with APIs to fetch data and update the user interface dynamically. However, when a component making an API call is unmounted before the response is received, it can lead to performance issues and potential memory leaks. In this blog post, we will explore the impact of cancelling API calls on unmount and discuss strategies to prevent such issues.
@@ -30,7 +30,7 @@ Checkout this example where child component is unmounted still we are rerenderin
 
 ### How can we prevent this?
 
-We can improve efficiency by cancelling the API call and not setting the response if the component is not mounted  which would minimize unnecessary network requests and server resource.
+We can improve efficiency by cancelling the API call and not setting the response if the component is not mounted which would minimize unnecessary network requests and server resource.
 
 To cancel api call we can use
 
@@ -58,6 +58,7 @@ const MyComponent = () => {
   // Component logic
 };
 ```
+
 ##### Using AbortController
 
 ```jsx
@@ -66,11 +67,11 @@ export default function MyComponent() {
   useEffect(() => {
     const abortController = new AbortController();
     const fetchData = async () => {
-        const response = await fetch('/api/data', {
-          signal: abortController.signal
-        });
-        const jsonData = await response.json();
-        setData(jsonData);
+      const response = await fetch("/api/data", {
+        signal: abortController.signal,
+      });
+      const jsonData = await response.json();
+      setData(jsonData);
     };
     fetchData();
     return () => {
@@ -80,8 +81,7 @@ export default function MyComponent() {
 }
 ```
 
-
-###  where we can use these methods
+### where we can use these methods
 
 Cancelling API calls on unmount is particularly important in the following scenarios:
 

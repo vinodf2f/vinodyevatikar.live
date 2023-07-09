@@ -19,7 +19,7 @@ type IHomeLink = {
 const HOME_LINKS: IHomeLink[] = [
   {
     label: "Work",
-    actionId: "work",
+    actionId: "experience",
     icon: {
       isStatic: true,
       src: "👨🏻‍💻",
@@ -36,7 +36,7 @@ const HOME_LINKS: IHomeLink[] = [
 
   {
     label: "Gallary",
-    actionId: "/gallary",
+    actionId: "gallary",
     icon: {
       isStatic: true,
       src: "📸",
@@ -75,9 +75,11 @@ const HOME_LINKS: IHomeLink[] = [
 export const HomeLinks = (props: Props) => {
   const router = useRouter();
   const handleClick = (link: IHomeLink) => {
+    console.log(link);
     switch (link.actionId) {
-      case "work":
-        router.push("/work");
+      case "experience":
+      case "gallary":
+        router.push(`/${link.actionId}`);
         break;
 
       case "resume":

@@ -14,7 +14,7 @@ export type ProjectData = {
 export const projectsData: ProjectData[] = [
   {
     title: "Hey there",
-    description: `Hey There is a chat app that enables you to connect with nearby individuals anonymously. Whether you're looking for interesting discussions or simply passing the time with nearby folks, Hey-there is your app, Once you log out all the chats and account information will be deleted.`,
+    description: `Hey There is a chat app that enables you to connect with nearby individuals anonymously.`,
     date: "02-07-2023",
     tags: [],
     stack: ["React-Native", "Expo", "React-Native-Maps", "Expo-Location","React-Native-Gifted-Chat"],

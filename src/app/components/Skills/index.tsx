@@ -49,7 +49,7 @@ export const Skills = (props: Props) => {
           return (
             <div className="skillItem" key={`${skill.name}${index}`}>
               <div className="name">{skill.name}</div>
-              <Image src={skill.icon} width={50} height={50} alt={skill.name} />
+              <Image src={skill.icon} width={15} height={15} alt={skill.name} />
             </div>
           );
         })}

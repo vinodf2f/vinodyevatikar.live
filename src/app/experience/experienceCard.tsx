@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./experience.module.css";
-import { IExperienceData } from "../data/experience";
+import { IExperienceData } from "../../data/experience";
 
 const ExperienceCard = (props: IExperienceData) => {
   const { designation, companyName, location, duration, markdown } = props;

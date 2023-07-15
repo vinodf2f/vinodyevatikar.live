@@ -17,13 +17,7 @@ export const Head = ({ title = "", description = "" }: IHeadProps) => {
   return (
     <NextHead>
       <title>{_title}</title>
-      <link rel="icon" type="image/x-icon" href="/portfolioCover.png" />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="32x32"
-        href="/profile.jpeg"
-      />
+      <link rel="icon" href="/favicon.ico" />
       <meta name="title" content={defaultTitle} />
       <meta name="keywords" content={keywordsString} />
       <meta name="description" content={_description} />

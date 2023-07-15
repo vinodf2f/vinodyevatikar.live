@@ -1,6 +1,6 @@
-import BlogHighlightHOC from "@/app/components/blogHighlightHOC";
+import BlogHighlightHOC from "@/components/blogHighlightHOC";
 import { Blog } from "../types";
-import { getAllBlogs, getBlogBySlug } from "@/app/utils/blog";
+import { getAllBlogs, getBlogBySlug } from "@/utils/blog";
 
 type Props = {
   params: {

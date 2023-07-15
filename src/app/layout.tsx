@@ -1,7 +1,7 @@
 import "./globals.css";
-import { Head, Navbar } from "@/app/components";
+import { Head, Navbar } from "@/components";
 import Image from "next/image";
-import profilePic from "../../public/profile.jpeg";
+import profilePic from "public/profile.jpeg";
 import "highlight.js/styles/atom-one-dark.css";
 
 export default function RootLayout({

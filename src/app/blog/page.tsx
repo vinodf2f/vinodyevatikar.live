@@ -1,6 +1,6 @@
-import { BlogList } from "@/app/components";
+import { BlogList } from "@/components";
 import { Blog } from "./types";
-import { getAllBlogs } from "../utils/blog";
+import { getAllBlogs } from "@/utils/blog";
 
 type IBlogArray = Blog[];
 

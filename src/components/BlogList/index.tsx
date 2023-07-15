@@ -1,5 +1,5 @@
 "use client";
-import { BlogCard } from "@/app/components";
+import { BlogCard } from "@/components";
 import React, { useState } from "react";
 import "./blog.css";
 import { Blog } from "@/app/blog/types";

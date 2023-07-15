@@ -1,6 +1,6 @@
 import React from "react";
-import { projectsData } from "../data/projects";
-import { ProjectCard } from "../components";
+import { projectsData } from "../../data/projects";
+import { ProjectCard } from "../../components";
 import Link from "next/link";
 
 type Props = {};

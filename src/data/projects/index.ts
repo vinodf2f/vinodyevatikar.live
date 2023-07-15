@@ -1,5 +1,5 @@
-import heyThereCoverImage from "../../../../public/heyThere.png";
-import portfolioCover from "../../../../public/portfolioCover.png";
+import heyThereCoverImage from "public/heyThere.png";
+import portfolioCover from "public/portfolioCover.png";
 export type ProjectData = {
   title: string;
   description: string;

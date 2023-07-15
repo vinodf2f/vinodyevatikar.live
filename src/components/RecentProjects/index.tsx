@@ -1,6 +1,6 @@
 import React from "react";
-import { ProjectCard } from "@/app/components";
-import { projectsData } from "@/app/data/projects";
+import { ProjectCard } from "@/components";
+import { projectsData } from "@/data/projects";
 type Props = {};
 
 const RecentProjects = (props: Props) => {

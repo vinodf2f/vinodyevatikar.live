@@ -1,6 +1,6 @@
 'use client'
 import React from "react";
-import { useHighlightJS } from "../hooks/hightlightJs";
+import { useHighlightJS } from "../app/hooks/hightlightJs";
 
 type Props = {
   content: string;

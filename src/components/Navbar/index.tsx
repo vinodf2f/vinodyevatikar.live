@@ -5,10 +5,10 @@ import styles from "./navbar.module.css";
 const navLinks = [
   { label: "Home", href: "/", id: "home" },
   { label: "About", href: "/about", id: "about" },
-  // { label: "Work", href: "/experience", id: "work" },
   // { label: "Projects", href: "/projects", id: "projects" },
   { label: "Blogs", href: "/blog", id: "blogs" },
-  { label: "Contact", href: "/#contact", id: "contact" },
+  { label: "Work", href: "/experience", id: "work" },
+  // { label: "Contact", href: "/#contact", id: "contact" },
 ];
 export const Navbar = () => {
   const pathname = usePathname();

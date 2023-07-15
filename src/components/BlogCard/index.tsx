@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import "./blogcard.css";
-import { Blog } from "../../blog/types";
+import { Blog } from "../../app/blog/types";
 
 import { useRouter } from "next/navigation";
 

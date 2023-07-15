@@ -1,8 +1,8 @@
-import { RecentBlogs, Skills, HomeLinks } from "@/app/components";
+import { RecentBlogs, Skills, HomeLinks } from "@/components";
 import Link from "next/link";
-import { getAllBlogs } from "./utils/blog";
+import { getAllBlogs } from "@/utils/blog";
 import { Blog } from "./blog/types";
-import RecentProjects from "./components/RecentProjects";
+import RecentProjects from "../components/RecentProjects";
 
 export default function Home() {
   const blogs = getAllBlogs() as Blog[];

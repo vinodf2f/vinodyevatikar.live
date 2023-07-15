@@ -4,7 +4,7 @@ import matter from "gray-matter";
 import marked from "marked";
 
 export const getAllBlogs = () => {
-  const folderPath = path.join("src/app", "data/blogs");
+  const folderPath = path.join("src", "data/blogs");
   console.log({ folderPath });
   const blogs = fs.readdirSync(folderPath);
   console.log({ blogs });
@@ -19,7 +19,7 @@ export const getAllBlogs = () => {
 };
 
 export const getBlogBySlug = (slug: string) => {
-  const folderPath = path.join("src/app", "./data/blogs");
+  const folderPath = path.join("src", "data/blogs");
   const blogPath = path.join(folderPath, `${slug}.md`);
   const blogData = fs.readFileSync(blogPath, "utf8");
   const { data, content } = matter(blogData);

@@ -2,8 +2,8 @@ import Link from "next/link";
 import React from "react";
 import styles from "./experience.module.css";
 import ExperienceCard from "./experienceCard";
-import Seperator from "@/app/components/Seperator";
-import { ExperienceData } from "../data/experience";
+import Seperator from "@/components/Seperator";
+import { ExperienceData } from "../../data/experience";
 type Props = {};
 
 const Experience= (props: Props) => {

@@ -37,7 +37,6 @@ const skills: ISkill[] = [
     icon: "https://skillicons.dev/icons?i=css",
   },
 
-
 ];
 
 export const Skills = (props: Props) => {

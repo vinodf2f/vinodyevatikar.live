@@ -1,6 +1,7 @@
 import React from "react";
 import { ProjectCard } from "@/components";
 import { projectsData } from "@/data/projects";
+import Link from "next/link";
 type Props = {};
 
 const RecentProjects = (props: Props) => {
@@ -10,6 +11,9 @@ const RecentProjects = (props: Props) => {
       {projectsData.map((project) => (
         <ProjectCard key={project.title} {...project} />
       ))}
+         <Link href="/projects">
+          <p style={{ textAlign: "center" }}> View all projects</p>
+        </Link>
     </div>
   );
 };

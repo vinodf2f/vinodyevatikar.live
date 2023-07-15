@@ -1,3 +1,4 @@
+import { LINKS } from "@/data/constants";
 import Link from "next/link";
 import React from "react";
 
@@ -11,19 +12,19 @@ const About = (props: Props) => {
       Bachelor of Engineering degree in Information Technology. I enjoy learning
       by building projects and have experience working with JavaScript apps,
       including React.js, React Native, and Next.js. I am currently working at{" "}
-      <Link target="_blank" href="https://www.mpl.live/">
+      <Link target="_blank" href={LINKS.organisation.mpl}>
         MPL
       </Link>{" "}
       and have previously worked at{" "}
-      <Link target="_blank" href="https://www.makemytrip.com/">
+      <Link target="_blank" href={LINKS.organisation.makemytrip}>
         Makemytrip
       </Link>
       /
-      <Link href="https://www.goibibo.com/" target="_blank">
+      <Link href={LINKS.organisation.goibibo} target="_blank">
         Goibibo
       </Link>{" "}
       and{" "}
-      <Link target="_blank" href="https://geekyants.com/">
+      <Link target="_blank" href={LINKS.organisation.geekyants}>
         GeekyAnts
       </Link>
       .

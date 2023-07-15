@@ -2,6 +2,7 @@ import React from "react";
 import { projectsData } from "../../data/projects";
 import { ProjectCard } from "../../components";
 import Link from "next/link";
+import { LINKS } from "@/data/constants";
 
 type Props = {};
 
@@ -12,8 +13,9 @@ const Projects = (props: Props) => {
         <ProjectCard key={project.title} {...project} />
       ))}
       <p>
-        Visit my {" "}<Link href="https://github.com/vinodf2f">GitHub</Link>{" "}to see
-        my incomplete projects and some proof-of-concepts repos{" "}
+        Visit my <Link target="_blank" href={LINKS.social.github}>GitHub</Link> to see
+        my inprogress projects, incomplete experiments and some
+        proof-of-concepts repos.
       </p>
     </div>
   );

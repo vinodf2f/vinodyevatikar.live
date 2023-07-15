@@ -2,75 +2,11 @@
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import React from "react";
+import { HOME_LINKS, IHomeLink } from "@/data/constants";
 import "./homelinks.css";
 
 type Props = {};
 
-type IHomeLink = {
-  label: string;
-  actionId: string;
-  icon?: {
-    isStatic: boolean;
-    src: string;
-  };
-  href?: string;
-};
-
-const HOME_LINKS: IHomeLink[] = [
-  {
-    label: "Work",
-    actionId: "experience",
-    icon: {
-      isStatic: true,
-      src: "👨🏻‍💻",
-    },
-  },
-  {
-    label: "Resume",
-    actionId: "resume",
-    icon: {
-      isStatic: true,
-      src: "📜",
-    },
-  },
-
-  {
-    label: "Gallary",
-    actionId: "gallary",
-    icon: {
-      isStatic: true,
-      src: "📸",
-    },
-  },
-  {
-    label: "Github",
-    actionId: "github",
-    icon: {
-      isStatic: false,
-      src: "https://skillicons.dev/icons?i=github",
-    },
-    href: "https://github.com/vinodf2f",
-  },
-  {
-    label: "Twitter",
-    actionId: "twitter",
-    icon: {
-      isStatic: false,
-      src: "https://skillicons.dev/icons?i=twitter",
-    },
-    href: "https://twitter.com/YevatikarVinod",
-  },
-
-  {
-    label: "LinkedIn",
-    actionId: "linkedin",
-    icon: {
-      isStatic: false,
-      src: "https://skillicons.dev/icons?i=linkedin",
-    },
-    href: "https://www.linkedin.com/in/vinod-yevatikar/",
-  },
-];
 
 export const HomeLinks = (props: Props) => {
   const router = useRouter();

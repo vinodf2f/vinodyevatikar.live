@@ -1,8 +1,12 @@
 import "./globals.css";
-import { Head, Navbar } from "@/components";
+import { Navbar } from "@/components";
 import Image from "next/image";
 import profilePic from "public/profile.jpeg";
 import "highlight.js/styles/atom-one-dark.css";
+import { Metadata } from "next";
+import { defaultMetaData } from "@/data/constants";
+
+export const metadata: Metadata = defaultMetaData;
 
 export default function RootLayout({
   children,
@@ -11,7 +15,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Head />
       <body className="appContainer">
         <Navbar />
         <div id="userInfo">
@@ -21,7 +24,7 @@ export default function RootLayout({
             height={150}
             alt="profile"
             className="avtarImg"
-            loading='eager'
+            loading="eager"
           />
           <h1>Hey, I am Vinod</h1>
           <h5>Frontend Engineer (Mobile + web)</h5>

@@ -84,3 +84,25 @@ export const HOME_LINKS: IHomeLink[] = [
     href: LINKS.social.linkedin,
   },
 ];
+
+const title = "Vinod Yevatikar - Frontend developer(Mobile+Web)";
+const description =
+  "Experienced frontend developer skilled in building high-performance web and mobile applications using cutting-edge technologies for scalable and maintainable solutions";
+
+export const defaultMetaData = {
+  title,
+  description,
+  openGraph: {
+    url: "https://www.vinodyevatikar.live/",
+    title,
+    description,
+    images: [
+      {
+        url: "/profile.jpeg",
+        alt: "Vinod profile",
+        width: 100,
+        height: 100,
+      },
+    ],
+  },
+};

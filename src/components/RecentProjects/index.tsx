@@ -8,7 +8,7 @@ const RecentProjects = (props: Props) => {
   return (
     <div style={{ marginTop: 50 }}>
       <h3 style={{ textDecoration: "underline" }}>Recent Projects</h3>
-      {projectsData.map((project) => (
+      {projectsData.slice(0,2).map((project) => (
         <ProjectCard key={project.title} {...project} />
       ))}
          <Link href="/projects">

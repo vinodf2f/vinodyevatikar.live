@@ -14,7 +14,6 @@ const blogMetaData = {
 export const metadata: Metadata = {
   ...blogMetaData,
   openGraph: {
-    ...defaultMetaData.openGraph,
     ...blogMetaData,
   },
 };

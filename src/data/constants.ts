@@ -1,3 +1,5 @@
+import { Metadata } from "next";
+
 export type IHomeLink = {
   label: string;
   actionId: string;
@@ -14,6 +16,7 @@ export const LINKS = {
     github: "https://github.com/vinodf2f",
     linkedin: "https://www.linkedin.com/in/vinod-yevatikar/",
     instagram: "https://www.instagram.com/vinod_y_/",
+    codesandbox:"https://codesandbox.io/u/vinodf2f"
   },
   icons: {
     github: "https://skillicons.dev/icons?i=github",
@@ -89,7 +92,7 @@ const title = "Vinod Yevatikar - Frontend developer(Mobile+Web)";
 const description =
   "Experienced frontend developer skilled in building high-performance web and mobile applications using cutting-edge technologies for scalable and maintainable solutions";
 
-export const defaultMetaData = {
+export const defaultMetaData: Metadata = {
   title,
   description,
   openGraph: {
@@ -98,10 +101,10 @@ export const defaultMetaData = {
     description,
     images: [
       {
-        url: "/profile.jpeg",
+        url: "/favicon-32x32.png",
         alt: "Vinod profile",
-        width: 100,
-        height: 100,
+        width: 32,
+        height: 32,
       },
     ],
   },

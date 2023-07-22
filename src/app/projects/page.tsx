@@ -32,6 +32,10 @@ const Projects = (props: Props) => {
         <Link target="_blank" href={LINKS.social.github}>
           GitHub
         </Link>{" "}
+        and {" "}
+        <Link target="_blank" href={LINKS.social.codesandbox}>
+          Codesandbox
+        </Link>{" "}
         to see my inprogress projects, incomplete experiments and some
         proof-of-concepts repos.
       </p>

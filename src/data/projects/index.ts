@@ -14,17 +14,7 @@ export type ProjectData = {
 };
 
 export const projectsData: ProjectData[] = [
-  {
-    title: "Bhavya NGO",
-    description:
-      "Bhaavya is a non-profit organization that aims to provide financial assistance and educational support to underprivileged children. *Work in progress",
-    date: "16-07-2023",
-    tags: [],
-    stack: ["NextJS", "React", "Typescript", "AppRouter", "Vercel"],
-    github: "https://github.com/vinodf2f/bhavya-ngo",
-    projectLink: "https://bhavya-ngo.vercel.app/",
-    coverImage: bhvyaNgoCover.src,
-  },
+
   {
     title: "Hey there",
     description: `Hey There is a chat app that enables you to connect with nearby individuals anonymously.`,
@@ -52,5 +42,16 @@ export const projectsData: ProjectData[] = [
     github: "https://github.com/vinodf2f/vinodyevatikar.live",
     projectLink: "https://vinodyevatikar-live.vercel.app/",
     coverImage: portfolioCover.src,
+  },
+  {
+    title: "Bhavya NGO",
+    description:
+      "Bhaavya is a non-profit organization that aims to provide financial assistance and educational support to underprivileged children. *Work in progress",
+    date: "16-07-2023",
+    tags: [],
+    stack: ["NextJS", "React", "Typescript", "AppRouter", "Vercel"],
+    github: "https://github.com/vinodf2f/bhavya-ngo",
+    projectLink: "https://bhavya-ngo.vercel.app/",
+    coverImage: bhvyaNgoCover.src,
   },
 ];

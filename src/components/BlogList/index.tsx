@@ -27,13 +27,13 @@ const BlogList = async ({ blogs }: IProps) => {
 
   return (
     <div className="blog-page">
-      <p>
+      {/* <p>
         In the dynamic and ever-changing field of software development, it's
         common to come across new concepts and forget some basic concepts over
         time. Writing small blogs and practical implementations helps me
         solidify my understanding.
       </p>
-      <br />
+      <br /> */}
       <div className="tag-list">
         {allTags.map((tag) => (
           <span

@@ -23,6 +23,7 @@ export const LINKS = {
     twitter: "https://skillicons.dev/icons?i=twitter",
     linkedin: "https://skillicons.dev/icons?i=linkedin",
     instagram: "https://skillicons.dev/icons?i=instagram",
+    codesandbox:"https://skillicons.dev/icons?i=codepen"
   },
   organisation: {
     mpl: "https://www.mpl.live/",
@@ -33,14 +34,14 @@ export const LINKS = {
 };
 
 export const HOME_LINKS: IHomeLink[] = [
-  {
-    label: "Work",
-    actionId: "experience",
-    icon: {
-      isStatic: true,
-      src: "👨🏻‍💻",
-    },
-  },
+  // {
+  //   label: "Work",
+  //   actionId: "experience",
+  //   icon: {
+  //     isStatic: true,
+  //     src: "👨🏻‍💻",
+  //   },
+  // },
   {
     label: "Resume",
     actionId: "resume",
@@ -50,14 +51,7 @@ export const HOME_LINKS: IHomeLink[] = [
     },
   },
 
-  {
-    label: "Gallary",
-    actionId: "gallary",
-    icon: {
-      isStatic: true,
-      src: "📸",
-    },
-  },
+
   {
     label: "Github",
     actionId: "github",
@@ -66,6 +60,11 @@ export const HOME_LINKS: IHomeLink[] = [
       src: LINKS.icons.github,
     },
     href: LINKS.social.github,
+  },
+  {
+    label: "Codesandbox",
+    actionId: "codesandbox",
+    href: LINKS.social.codesandbox,
   },
   {
     label: "Twitter",
@@ -85,6 +84,14 @@ export const HOME_LINKS: IHomeLink[] = [
       src: LINKS.icons.linkedin,
     },
     href: LINKS.social.linkedin,
+  },
+  {
+    label: "Gallary",
+    actionId: "gallary",
+    icon: {
+      isStatic: true,
+      src: "📸",
+    },
   },
 ];
 

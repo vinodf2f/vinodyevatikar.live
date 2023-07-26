@@ -18,8 +18,8 @@
     align-items: center;
 
   }
-  .linkContainer .link .label {
-    margin-left: 8px;
+  .linkContainer .link .icon {
+    margin-right: 5px;
   }
 
   .linkContainer .link:hover {

@@ -24,12 +24,8 @@ export const HomeLinks = (props: Props) => {
         if (newTab === null) return;
         newTab.location.href = pdfUrl;
         break;
-      case "github":
-      case "twitter":
-      case "linkedin":
-        window.open(link.href, "_blank");
-        break;
       default:
+        window.open(link.href, "_blank");
         break;
     }
   };
@@ -42,7 +38,7 @@ export const HomeLinks = (props: Props) => {
           className="link"
           onClick={() => handleClick(link)}
         >
-          {link.icon?.isStatic ? (
+          {link.icon && (link.icon?.isStatic ? (
             <span className="icon">{link.icon.src}</span>
           ) : (
             <Image
@@ -51,8 +47,9 @@ export const HomeLinks = (props: Props) => {
               src={link.icon?.src || ""}
               alt={link.label}
               loading="eager"
+              className="icon"
             />
-          )}
+          ))}
           <span className="label">{link.label}</span>
         </div>
       ))}

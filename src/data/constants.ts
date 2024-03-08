@@ -30,6 +30,7 @@ export const LINKS = {
     makemytrip: "https://www.makemytrip.com/",
     goibibo: "https://www.goibibo.com/",
     geekyants: "https://geekyants.com/",
+    emiratesNbd:"https://www.emiratesnbd.com/en"
   },
 };
 

@@ -22,7 +22,7 @@ export const ExperienceData: IExperienceData[] = [
     designation: "Senior Development Engineer 2",
     companyName: "MPL (Striker.club)",
     location: "Banglore, India",
-    duration: "(June 5 - current)",
+    duration: "(June 5 - 21 Aug)",
     markdown:"",
     link:LINKS.organisation.mpl
   },

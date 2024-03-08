@@ -10,6 +10,14 @@ export type IExperienceData = {
 };
 
 export const ExperienceData: IExperienceData[] = [
+{
+    designation: "Software Engineer(FTC)",
+    companyName: "Emirates NBD",
+    location: "Dubai, UAE",
+    duration: "(October 23 - current)",
+    markdown:"",
+    link:LINKS.organisation.emiratesNbd
+  },
   {
     designation: "Senior Development Engineer 2",
     companyName: "MPL (Striker.club)",

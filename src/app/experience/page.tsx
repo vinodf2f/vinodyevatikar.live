@@ -9,7 +9,7 @@ const Experience = (props: Props) => {
   return (
     <div className={styles.container}>
       <h5 className={styles.header}>
-        I have total 4+ years of experience as a frontend engineer and other
+        I have total 5+ years of experience as a frontend engineer and other
         than work I have some <Link href="/projects">personal projects.</Link>
       </h5>
       <div>

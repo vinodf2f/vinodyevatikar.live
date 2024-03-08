@@ -7,15 +7,19 @@ type Props = {};
 const About = (props: Props) => {
   return (
     <p>
-      I am a frontend developer with 4+ years of experience working from
-      Bangalore, India. My native place is Yeoti, Maharashtra, India. I hold a
+      I am a frontend developer with 5+ years of experience currently working from
+      Dubai, UAE. My native place is Yeoti, Maharashtra, India. I hold a
       Bachelor of Engineering degree in Information Technology. I enjoy learning
       by building projects and have experience working with JavaScript apps,
       including React.js, React Native, and Next.js. I am currently working at{" "}
-      <Link target="_blank" href={LINKS.organisation.mpl}>
-        MPL
+      <Link target="_blank" href={LINKS.organisation.emiratesNbd}>
+        Emirates NBD
       </Link>{" "}
       and have previously worked at{" "}
+
+     <Link target="_blank" href={LINKS.organisation.mpl}>
+        MPL,{" "}
+      </Link>
       <Link target="_blank" href={LINKS.organisation.makemytrip}>
         Makemytrip
       </Link>

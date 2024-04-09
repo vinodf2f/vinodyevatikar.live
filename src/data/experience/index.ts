@@ -22,7 +22,7 @@ export const ExperienceData: IExperienceData[] = [
     designation: "Senior Development Engineer 2",
     companyName: "MPL (Striker.club)",
     location: "Banglore, India",
-    duration: "(June 5 - 21 Aug)",
+    duration: "(June 23 - Aug 23)",
     markdown:"",
     link:LINKS.organisation.mpl
   },
@@ -30,7 +30,7 @@ export const ExperienceData: IExperienceData[] = [
     designation: "Senior Software Engineer 1",
     companyName: "Makemytrip / Goibibo",
     location: "Gurgaon, India",
-    duration: "(Aug 26 - june 2)",
+    duration: "(Aug 21 - june 23)",
     markdown:"",
     link:LINKS.organisation.makemytrip
   },

@@ -1,6 +1,6 @@
 ---
 title: Automating Web Application Updates in ATMs and Kiosks - A Seamless Reload Strategy
-date: 07-07-2023
+date: 07-07-2024
 author: [Vinod]
 tags: [Kiosk Mode, ATM software, Polling, Real-Time Updates Strategies, React, Websocket, SSE ]
 ---
